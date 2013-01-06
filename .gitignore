@@ -1,2 +1,13 @@
 *
 !.*
+!.vim/*
+!.vim/*/*
+.vim/view/
+.vim/.netrwhist
+.viminfo
+.Trash
+.pip
+.DS_Store
+.CFUserTextEncoding
+.bash_history
+.lesshst
