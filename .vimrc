@@ -22,7 +22,7 @@ let w:TrailingWhiteSpaceM1=matchadd('ErrorMsg', '\s\+$', -1)
 " Highlight the whole line I'm on. I find it useful for locating the cursor.
 set cursorline
 
-" Make a usefule status line
+" Make a useful status line
 set laststatus=2
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L
 
