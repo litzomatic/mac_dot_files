@@ -1,0 +1,11 @@
+CherryPy==3.2.2
+Pygments==1.5
+distribute==0.6.34
+ipython==0.13.1
+nose==1.2.1
+pyzmq==2.2.0.1
+requests==1.0.4
+rope==0.9.4
+ropemode==0.2
+ropevim==0.4
+wsgiref==0.1.2

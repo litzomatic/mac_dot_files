@@ -2,6 +2,8 @@
 !.*
 !.vim/*
 !.vim/*/*
+!brew_requirements.txt
+!pip_requirements.txt
 .vim/view/
 .vim/.netrwhist
 .viminfo
