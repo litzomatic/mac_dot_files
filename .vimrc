@@ -1,6 +1,12 @@
 " Stuff does not work 'right' without this
 set nocompatible
 
+" I'm not so hardcore that I don't want to click once and a while :)
+set mouse=a
+
+" For terminals with 256 colors
+set t_Co=256
+
 " Detects file type and sets filetype
 filetype on
 
