@@ -38,4 +38,8 @@ set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L
 " this for at a glance.
 au BufWinLeave *.py mkview
 au BufWinEnter *.py silent loadview
+au BufWinLeave *.html mkview
+au BufWinEnter *.html silent loadview
+au BufWinLeave *.mako mkview
+au BufWinEnter *.mako silent loadview
 
